@@ -6,7 +6,7 @@ function reverseString($str) {
 }
 
 // Function to convert a string to uppercase
-function toUpperCase($str) {
+function toUpperCase1($str) {
     return strtoupper($str);
 }
 
