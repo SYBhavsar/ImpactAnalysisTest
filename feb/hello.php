@@ -1,5 +1,5 @@
 <?php
-class myname {
+class MYNAME {
 
 	public function myname(){
 		return "Suyash";
