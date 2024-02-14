@@ -1,6 +1,4 @@
-
 <?php
-
 namespace magento;
 class MYNAME {
 
