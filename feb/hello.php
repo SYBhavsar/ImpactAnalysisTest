@@ -1,7 +1,7 @@
 
 <?php
 
-namespace magento/kkr;
+namespace magento;
 class MYNAME {
 
 	public function myname(){
