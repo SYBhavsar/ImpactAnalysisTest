@@ -37,8 +37,8 @@ function is_prime($n) {
 }
 
 function  is_even($n){
-	if($n//2==0){
-		return  true;
+	if($n%2==0){
+		return true;
 	}
 	return false;
 }
