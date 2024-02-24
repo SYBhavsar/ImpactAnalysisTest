@@ -8,9 +8,6 @@ function subtract($a, $b) {
     return $b -$a;
 }
 
-function multiply($a, $b) {
-    return $a * $b;
-}
 
 function divide($a, $b) {
     if ($b == 0) {
@@ -28,7 +25,7 @@ function cube($x) {
 }
 
 function is_prime($n) {
-    if ($n <= 1) {
+    if ($n <= 0) {
         return false;
     }
     for ($i = 2; $i <= sqrt($n); $i++) {
@@ -37,6 +34,13 @@ function is_prime($n) {
         }
     }
     return true;
+}
+
+function  is_even($n){
+	if($n%2==0){
+		return true;
+	}
+	return false;
 }
 
 // Add more functions as needed...
